@@ -9,7 +9,7 @@ class MyTopo(Topo):
 
         SW_ACC_NUM = 3
         SW_AGG_NUM = 2
-
+        print("test log")
         sws = [
             *[self.addSwitch(f"swac{n}") for n in range(SW_ACC_NUM)],
             *[self.addSwitch(f"swag{n}") for n in range(SW_AGG_NUM)],
