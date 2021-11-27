@@ -1,0 +1,4 @@
+1) if hosts in mininet don't have python packages installed, you can install them from .whl files 
+	using "pip install X.whl" or (if pip command launch pip for python 2.7) "python -m pip install X.whl"
+	
+2) if you can not open xterm window, try copy .Xauthority file from /home to /root
